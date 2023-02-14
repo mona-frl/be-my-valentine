@@ -2,7 +2,8 @@ body {
     margin: 0;
     text-align: center;
     background-color: #f86e6e15;
-    background-image: url(./images/food.png)
+    background-image: url(./images/food.png);
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container {
@@ -10,8 +11,8 @@ body {
 }
 
 .img-responsive {
-    width: 400px;
-    height: 450px;
+    width: 25rem;
+    height: 25rem;
 }
 
 .hidden {
@@ -19,6 +20,7 @@ body {
 }
 
 button {
+    font-family: 'Open Sans', sans-serif;
     background-color: #fee6e3;
     border: 2px solid #111;
     border-radius: 8px;
