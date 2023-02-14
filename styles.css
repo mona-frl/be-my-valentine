@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #f86e6e15;
+    background-image: url(./images/food.png)
+}
+
+.container {
+    margin: 30px;
+}
+
+.img-responsive {
+    width: 400px;
+    height: 450px;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    background-color: #fee6e3;
+    border: 2px solid #111;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #111;
+    cursor: pointer;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    height: 48px;
+    justify-content: center;
+    line-height: 24px;
+    max-width: 100%;
+    margin-right: 30px;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+button:after {
+    background-color: #111;
+    border-radius: 8px;
+    content: "";
+    display: block;
+    height: 48px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    transform: translate(8px, 8px);
+    transition: transform .2s ease-out;
+    z-index: -1;
+}
+
+button:hover:after {
+    transform: translate(0, 0);
+}
+
+button:active {
+    background-color: #ffdeda;
+    outline: 0;
+}
+
+button:hover {
+    outline: 0;
+}
+
+@media (min-width: 768px) {
+    button {
+        padding: 0 40px;
+    }
+}
+
+a {
+    color: white;
+    padding: 5px;
+}
+
+a:hover {
+    color: #c5c5c5;
+}
+
+a:active {
+    color: #7c7b7b
+}
+
+
+footer {
+    width: 100%;
+    margin-top: 100px;
+    height: 100px;
+    background: #1a1919;
+    color: white;
+    padding-top: 10px;
+}
